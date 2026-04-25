@@ -1,0 +1,26 @@
+{
+  "name": "gb-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bootstrap.ts",
+  "dependencies": {
+    "discord.js": "^14.26.2",
+    "level": "^10.0.0"
+  },
+  "scripts": {
+    "bot": "npx tsx ./bootstrap.ts",
+    "deployCommands": "npx tsx ./bootstrap.ts --deploy-commands"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "eslint": "^10.2.1",
+    "prettier": "^3.8.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "type": "module"
+}
