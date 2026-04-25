@@ -1,4 +1,4 @@
-import { SlashCommandBuilder, MessageFlags, Encoding, ChatInputCommandInteraction, SlashCommandStringOption } from "discord.js";
+import { SlashCommandBuilder, MessageFlags, ChatInputCommandInteraction, SlashCommandStringOption } from "discord.js";
 import * as database from "../../databaseManager.js";
 import { platforms } from "../../platformEntries.js";
 
