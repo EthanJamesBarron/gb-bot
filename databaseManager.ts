@@ -2,10 +2,7 @@
 // We're not scaling big enough that this approach is going to become a problem
 // --== TODO: IMPLEMENT VERBOSE LOGGING, THIS IS WAY TOO BAREBONES ==--
 import * as levelDB from "level";
-import { start } from "node:repl";
-
 const database = new levelDB.Level("lfgDatabase", { valueEncoding: "json" });
-
 
 export function GetUserData(userId: string) {
     try {
