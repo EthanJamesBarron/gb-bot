@@ -39,10 +39,10 @@ export function GenerateUserData(userId: string) {
     const startingData =
         `
         {
-            "steam": "",
-            "xbox": "",
-            "playstation": "",
-            "switch": ""
+            "Steam": "",
+            "Xbox": "",
+            "PlayStation": "",
+            "Switch": ""
         }
         `
 
